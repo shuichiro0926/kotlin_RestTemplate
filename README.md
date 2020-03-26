@@ -1,10 +1,11 @@
 ## Kotlin API Call
 
+Kotlinプロジェクトで使用。(Spring boot等)
 外部のAPIをCallするクラス。
 
 ## Jacksonのimport
 以下をbuildファイルに追加。(Gradleの場合、build.gradle)
-callしたレスポンスをオブジェクト変換する際に使用。
+callしたJsonレスポンスをオブジェクトクラスにマッピングする際に使用。
 
 ```
 /* jackson */
@@ -12,7 +13,7 @@ implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.0")
 ```
 
 ## オブジェクトクラス
-Jacksonを使用してJsonレスポンスをオブジェクトクラスに変換。
+Jacksonを使用してJsonレスポンスをオブジェクトクラスにマッピング。
 オブジェクトクラスは以下のように作成。
 
 ```
