@@ -13,7 +13,8 @@ callしたレスポンスをオブジェクト変換する際に使用。
 Jacksonを使用してJsonレスポンスをオブジェクトクラスに変換。
 オブジェクトクラスは以下のように作成。
 
-`class SampleDto (
+`
+class SampleDto (
    @JsonProperty("historyId")
    val historyId: Int,
  
@@ -31,4 +32,5 @@ Jacksonを使用してJsonレスポンスをオブジェクトクラスに変換
  
    @JsonProperty("updateDate")
    val updateDate: Date?
- )`
+ )
+ `
