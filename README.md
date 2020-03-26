@@ -1,1 +1,3 @@
-# kotlin_api_call
+## Kotlin API Call
+
+Kotlin　API から外部のAPIをCallするサンプルクラス。
