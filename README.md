@@ -12,7 +12,7 @@ callしたJsonレスポンスをオブジェクトクラスにマッピングす
 implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.0")
 ```
 
-## オブジェクトクラス
+## Object Class
 Jacksonを使用してJsonレスポンスをオブジェクトクラスにマッピング。
 オブジェクトクラスは以下のように作成。
 
